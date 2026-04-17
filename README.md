@@ -1,6 +1,6 @@
 # Quantum Transport and Nanoelectronics
 
-Python implementations of three core quantum transport problems from a nanoelectronics course, following Datta's *Quantum Transport: Atom to Transistor* framework.
+Python implementations of three core quantum transport problems from a nanoelectronics course.
 
 ---
 
