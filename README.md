@@ -153,3 +153,12 @@ All scripts write PNG figures to `figures/` and print a summary to stdout.
 ## References
 
 This repository is fundamentally based on **Marco Baldo's *Nanoelectronics*** course material and textbook, which provides the theoretical foundation for quantum transport, molecular electronics, and device physics covered here. The implementations follow the pedagogical approach and physical models introduced in that course.
+
+---
+
+## Author
+
+**A. S. Amari Rabah**
+
+Developed as part of the coursework for *Nanoelectronics* —
+Bachelor's Degree in Physics, University of Granada, Spain.
