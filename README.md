@@ -93,9 +93,7 @@ I_{DS} = \mu_n C_{OX}\frac{W}{L}\begin{cases}(V_{GS}-V_T)V_{DS} - \tfrac{1}{2}V_
 $$
 
 **Device:** $L = 40$ nm, $W = 120$ nm, $C_G = 0.1$ fF, $E_C - E_F = 0.3$ V (threshold voltage).
-
 ---
-
 ## Results
 
 ### 1D Schrödinger equation
@@ -107,9 +105,7 @@ $$
 **Left:** First four eigenstates of a 10 nm box.  Probability densities $|\psi_n|^2$ are overlaid at their energy levels (dashed lines); the $n$-th state has $n-1$ nodes.  Numerical energies match the analytical formula $E_n = n^2\pi^2\hbar^2/(2mL^2)$ to $<0.04\%$.
 
 **Right:** Symmetric double well for three barrier heights $V_0 = 1.5, 3.0, 6.0$ eV.  Each well-state splits into a doublet; the splitting $\Delta E_{1,2} \approx 18$ meV is controlled by tunnelling through the central barrier and is nearly independent of $V_0$ because the inter-barrier separation dominates.
-
 ---
-
 ### Molecular junction transport
 
 | I-V: effect of Coulomb charging | Conductance vs temperature |
@@ -119,9 +115,7 @@ $$
 **Left:** The non-interacting ($q^2/C_\Sigma = 0$) junction shows a sharp sigmoid I-V centered on the level resonance.  Adding Coulomb charging ($q^2/C_\Sigma = 0.5, 1.5$ eV) **shifts** the resonance voltage and broadens/splits the conductance peak — the hallmark of single-electron Coulomb blockade.
 
 **Right:** As temperature rises, the Fermi-Dirac distributions broaden, widening the conductance peak $dI/dV$.  At cryogenic temperatures ($T = 77$ K) the peak is sharper, enabling single-electron spectroscopy.
-
 ---
-
 ### Ballistic MOSFET
 
 | $I_{DS}$–$V_{DS}$ family ($T = 5$ K) | Ballistic vs semiclassical ($V_{GS} = 0.5$ V) |
@@ -131,9 +125,7 @@ $$
 **Left:** At $T = 5$ K the Fermi-Dirac is essentially a step function: the current jumps immediately to its saturation value once $V_{DS} \gtrsim k_BT \approx 0.43$ meV, and depends strongly on $V_{GS}$ through the gate-induced band shift $U$.
 
 **Right:** At $T = 298$ K, the ballistic model (21 μA) gives **lower** saturation current than the long-channel drift-diffusion formula (37.5 μA).  This counter-intuitive result reveals the breakdown of the classical model at the nanoscale: the long-channel formula assumes $L \gg \lambda_{mfp}$ (many scattering events), which drastically overestimates transport for a 40 nm device where carriers transit the channel without scattering.
-
 ---
-
 ## Usage
 
 ```bash
@@ -147,15 +139,11 @@ python scripts/run_mosfet.py
 ```
 
 All scripts write PNG figures to `figures/` and print a summary to stdout.
-
 ---
-
 ## References
 
 This repository is fundamentally based on **Marco Baldo's *Nanoelectronics*** course material and textbook, which provides the theoretical foundation for quantum transport, molecular electronics, and device physics covered here. The implementations follow the pedagogical approach and physical models introduced in that course.
-
 ---
-
 ## Author
 
 **A. S. Amari Rabah**
